@@ -1,29 +1,67 @@
-<HTML lang="ru">
-  <HEAD>
-  <LINK rel="stylesheet" type="text/css" href="style.css">
-  <TITLE>Путешествия во времени</TITLE>
-  </HEAD>
-  <BODY bgcolor=white text=black link=#9527ad alink=red vlink=green>
-  <DIV class="header">
-  <a href="index.html"><IMG src=pic/logo.png title=Главная width=80px height=80px></a>
-  <IMG src=pic/text1.gif style="float:right;">
-  </DIV>  
-<NAV>
-    <UL>
-      <LI><A href="index.html" id=tex>Главная</A></LI>
-      <LI><A href="history.html" id=tex>История</A></LI>
-      <LI><a href="science.html"id=tex>Наука</A></LI>
-      <LI><A href="culture.html"id=tex>Культура</A></LI>
-      <LI><A href="#"id=tex>Контакты</A></LI>
-    </UL>
-</NAV>
-    <DIV id="content" align=justify>  
-<p align=center>Автор: Ульянов Александр
-<p align=center><IMG src=pic/author.jpg title="Ульянов Александр" width=150px>
-<p align=center><a href="https://vk.com/sancho_ul"><IMG src=pic/vk.png title=ВКонтакте width=25px></a><a href="https://www.instagram.com/sasha_uly/"><IMG src=pic/insta.png title=Instagram width=25px></a><a href="https://www.facebook.com/sancho.uly"><IMG src=pic/face.png title=Facebook width=25px></a>
-    </DIV>
-   <DIV id="footer">
-&copy;&nbsp;2016 год&nbsp;Ульянов&nbsp;Александр,&nbsp;по всем вопросам обращаться по адресу&nbsp;ulyanov.sanchous@yandex.ru</A>
-    </DIV> 
-  </BODY>
-</HTML>
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" type="text/css" href="./css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
+  <title>Путешествия во времени</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__container container">
+      <a href="#" class="header__logo">
+        <img src="./img/logo.png" alt="logo">
+      </a>
+      <!-- <img src="./img/text1.gif"> -->
+      <nav class="header__nav nav">
+        <ul class="list-reset nav__list">
+          <li class="nav__item">
+            <a class="nav__link" href="./index.html">Главная</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="./history.html">История</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="./science.html">Наука</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="./culture.html">Культура</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="./contacts.html">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="main">
+    <div class="content">
+      <div class="container">
+        <p>Автор: Ульянов Александр</p>
+        <img src="./img/author.jpg" alt="Ульянов Александр">
+        <a href="https://vk.com/sancho_ul">
+          <img src="./img/vk.png" alt="ВКонтакте" width="25px">
+        </a>
+        <a href="https://www.instagram.com/sasha_uly/">
+          <img src="./img/insta.png" alt="Instagram" width="25px">
+        </a>
+        <a href="https://www.facebook.com/sancho.uly">
+          <img src="./img/face.png" alt="Facebook" width="25px">
+        </a>
+      </div>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="footer__container container">
+      &copy;&nbsp;2016 год&nbsp;Ульянов&nbsp;Александр,&nbsp;по всем вопросам обращаться по
+      адресу&nbsp;<a href="mailto:ulyanov.sanchous@yandex.ru">ulyanov.sanchous@yandex.ru</a>
+    </div>
+  </footer>
+</body>
+
+</html>

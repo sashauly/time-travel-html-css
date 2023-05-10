@@ -1,31 +1,82 @@
-<HTML lang="ru">
-  <HEAD>
-  <LINK rel="stylesheet" type="text/css" href="style.css">
-  <TITLE>Путешествия во времени</TITLE>
-  </HEAD>
-  <BODY bgcolor=white text=black link=#9527ad alink=red vlink=green>
-  <DIV class="header">
-  <A><IMG src=pic/logo.png title=Главная width=80px height=80px></A>
-  <IMG src=pic/text1.gif style="float:right;">
-  </DIV>   
-<NAV>
-    <UL>
-      <LI><A href="#" id=tex>Главная</A></LI>
-      <LI><A href="history.html" id=tex>История</A></LI>
-      <LI><a href="science.html"id=tex>Наука</A></LI>
-      <LI><A href="culture.html"id=tex>Культура</A></LI>
-      <LI><A href="contacts.html"id=tex>Контакты</A></LI>
-    </UL>
-</NAV>
-    <DIV id="content" align=justify>  
-    <H1>Главная</H1>
-    <IMG src="pic/tardis.png" title="TARDIS" align=left width=250px class="leftimg">
-    <p>Многие из нас хоть раз в жизни задумывались: "Можно ли вернуться в прошлое или пережить свою жизнь по-другому? А можно ли отправиться в будущее на машине времени?". На протяжении многих лет люди представляли себе путешествия во времени и воплощали свои идем в литературных произведениях, кинофильмах, играх и т.д. Ученые разных стран пытаются доказать существование путешествий во времени при помощи различных гипотез и предположений, но на данный момент наука официально не подтвердила возможность создания машины времени и путешествий в прошлое или будущее. На данный момент мы можем лишь гадать о загадачной природе пространства времени, а также наслаждаться многими художественными произведениями. 
-    <p>На данном сайте я привел различную информацию, чтобы у Вас сложилось опреденное мнение о путешествиях во времени, о перспективах развития этой идеи, а также различных отражений ее в культуре
-    <p align=center>Приятного просмотра! 
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" type="text/css" href="./css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
+  <title>Путешествия во времени</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__container container">
+      <a href="#" class="header__logo">
+        <img src="./img/logo.png" alt="logo">
+      </a>
+      <!-- <img src="./img/text1.gif"> -->
+      <nav class="header__nav nav">
+        <ul class="list-reset nav__list">
+          <li class="nav__item">
+            <a class="nav__link" href="./index.html">Главная</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="./history.html">История</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="./science.html">Наука</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="./culture.html">Культура</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="./contacts.html">Контакты</a>
+          </li>
+        </ul>
+      </nav>
     </div>
-   <DIV id="footer">
-&copy;&nbsp;2016 год&nbsp;Ульянов&nbsp;Александр,&nbsp;по всем вопросам обращаться по адресу&nbsp;ulyanov.sanchous@yandex.ru</A>
-    </DIV> 
-  </BODY>
-</HTML>
+  </header>
+  <main class="main">
+    <section class="index">
+      <div class="container">
+        <div class="content">
+          <h1 class="section-title">Главная</h1>
+          <img src="./img/tardis.png" alt="tardis" style="width: 250px;">
+          <p>
+            Многие из нас хоть раз в жизни задумывались: "Можно ли вернуться в прошлое или пережить свою жизнь
+            по-другому?
+            А
+            можно ли отправиться в будущее на машине времени?". На протяжении многих лет люди представляли себе
+            путешествия
+            во
+            времени и воплощали свои идем в литературных произведениях, кинофильмах, играх и т.д. Ученые разных стран
+            пытаются
+            доказать существование путешествий во времени при помощи различных гипотез и предположений, но на данный
+            момент
+            наука официально не подтвердила возможность создания машины времени и путешествий в прошлое или будущее. На
+            данный
+            момент мы можем лишь гадать о загадачной природе пространства времени, а также наслаждаться многими
+            художественными произведениями.
+          </p>
+          <p>
+            На данном сайте я привел различную информацию, чтобы у Вас сложилось опреденное мнение о путешествиях во
+            времени,
+            о перспективах развития этой идеи, а также различных отражений ее в культуре
+          </p>
+          <p align="center">Приятного просмотра!</p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer__container container">
+      &copy;&nbsp;2016 год&nbsp;Ульянов&nbsp;Александр,&nbsp;по всем вопросам обращаться по
+      адресу&nbsp;<a href="mailto:ulyanov.sanchous@yandex.ru">ulyanov.sanchous@yandex.ru</a>
+    </div>
+  </footer>
+</body>
+
+</html>
